@@ -1,0 +1,35 @@
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+form{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.movies{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+.movie{
+  text-align: center;
+}
+
+.movie img{
+  border-radius: 10px;
+  margin-top: 16px;
+}
